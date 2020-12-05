@@ -1,4 +1,4 @@
-# expo-mixpanel
+# expo-mixpanel-hooks
 
 This is an adaption of Ben Awad's [expo-mixpanel-analytics](https://github.com/benawad/expo-mixpanel-analytics/tree/master/src) but refactored to use React Hooks.
 
@@ -14,7 +14,7 @@ Import into App.tsx (or whatever it is named) like you would any other context p
 import * as React from 'react'
 import { ApolloProvider } from '@apollo/react-hooks'
 import { AuthProvider } from './src/context'
-import { MixpanelProvider } from 'expo-mixpanel'
+import { MixpanelProvider } from 'expo-mixpanel-hooks'
 import AppNavigation from './src/navigation'
 
 const token = process.env.mixpanelToken
