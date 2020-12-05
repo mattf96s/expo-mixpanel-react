@@ -1,5 +1,5 @@
 {
-  "name": "expo-mixpanel",
+  "name": "expo-mixpanel-react",
   "version": "0.0.0",
   "description": "Update to benawad / expo-mixpanel-analytics to use React Hooks",
   "main": "./lib/cjs/index.js",
