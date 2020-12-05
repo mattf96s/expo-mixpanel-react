@@ -22,7 +22,7 @@ export const MixpanelContext = React.createContext<
   Partial<MixpanelContextType>
 >({});
 
-export const useMixpanelContext = () => React.useContext(MixpanelContext);
+const useMixpanelContext = () => React.useContext(MixpanelContext);
 
 const MixpanelProvider: React.FC<MixpanelContextProps> = ({
   children,
@@ -231,4 +231,4 @@ const MixpanelProvider: React.FC<MixpanelContextProps> = ({
   );
 };
 
-export { MixpanelProvider };
+export { MixpanelProvider, useMixpanelContext };
