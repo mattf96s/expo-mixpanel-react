@@ -1,0 +1,37 @@
+{
+  "name": "expo-mixpanel",
+  "version": "0.0.0",
+  "description": "Update to benawad / expo-mixpanel-analytics to use React Hooks",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublish": "npm run tsc"
+  },
+  "keywords": [
+    "expo",
+    "mixpanel",
+    "react",
+    "hooks",
+    "native"
+  ],
+  "author": "matthew fainman",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.13.2",
+    "@types/react": "^17.0.0",
+    "@types/react-native": "^0.63.37",
+    "@types/react-native-base64": "^0.1.0",
+    "expo-constants": "^9.2.0",
+    "react": "^17.0.1",
+    "react-native": "^0.63.4",
+    "react-native-base64": "^0.1.0"
+  }
+}
