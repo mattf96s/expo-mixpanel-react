@@ -4,7 +4,15 @@ This is an adaption of Ben Awad's [expo-mixpanel-analytics](https://github.com/b
 
 I used this in a project which has now ended. However, it might be useful for someone else.
 
-Note: I have not tested the people functions.
+Link to the [npm package](https://www.npmjs.com/package/expo-mixpanel-hooks)
+
+## Installation
+
+```
+npm i expo-mixpanel-hooks
+```
+
+
 
 ## Usage
 
